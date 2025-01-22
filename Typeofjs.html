@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of JS</title>
+</head>
+<body>
+    <h2> Types of JS</h2>
+    <p id="demo">Hello on Browser</p>
+    <p id="demo1">second time Hello on Broswer</p>
+
+    <!--Inline JS-->
+    <button onclick="document.getElementById('demo').innerHTML='Welcome in FDP'">Inner Click</button>
+    <button onclick="window.alert('Wecome in FDP as alert')">Alert Click</button>
+    <button onclick="console.log('Welcome in FDP as Console')">console alert</button>
+    <button onclick="document.write('Welcome in FDP as write')">Write Click</button>
+
+     <br>
+     <br>
+     <!--Calling a function for manupulation-->
+     <button onclick="inner()">Click</button>
+     <button onclick="alertMsg()">Click here for Alert</button>
+     <button onclick="consoleMsg()">Click here for Console OP</button>
+     <button onclick="writeMsg()">Click for Write</button>
+    
+    
+    <h1 id="h1demo">------</h1>
+
+    <!--Internal JS-->
+    <script src="script.js"></script>
+</body>
+</html>

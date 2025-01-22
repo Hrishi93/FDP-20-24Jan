@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesss</title>
+</head>
+<body>
+    <h1 class="demoClass">Demo Access</h1> 
+    <h1>FDP</h1>
+    <h1>SDP</h1>
+
+    <p id="demo">Edunet Foundation</p>
+    <p class="demoClass">AICTE</p>  <!--[0]-->
+    <p class="demoClass">India</p>  <!-- [1]-->
+    <p class="demoClass"> Asia</p>
+    <p>World</p>
+
+    <button onclick="accessContent()">Click for content</button>
+    <h2 id="result"> --------  </h2>
+    <script>
+        function accessContent(){
+
+            //var content = document.getElementById("demo");
+            //var content = document.getElementsByClassName('demoClass');
+            var content= document.getElementsByTagName('h1')
+            
+           // console.log(content.innerHTML);
+          // console.log(content[3].innerHTML);
+          console.log(content[1].innerHTML)
+
+           //document.getElementById('result').innerHTML=content.innerHTML;
+        }
+    </script>
+</body>
+</html>

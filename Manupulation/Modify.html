@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="name1">Akshay</p>
+    <p id="name2">Kumar</p>
+
+    <button onclick="modifyContent()">get content</button>
+
+    <p id="result">Welcome msg will be display Here</p>
+
+    <script>
+        function modifyContent(){
+            var msg="Welcome";
+            var fname=document.getElementById('name1');
+            var lname=document.getElementById('name2');
+
+            //msg
+            document.getElementById('result').innerHTML=msg+" "+fname.innerHTML+" "+lname.innerHTML;
+        }
+    </script>
+</body>
+</html>

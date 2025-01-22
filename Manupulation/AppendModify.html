@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demodiv">
+        <p>Existed p Tag</p>
+
+    </div>
+
+    <button onclick="addContent()">Add Tag</button>
+
+    <script>
+        function addContent(){
+            
+            var newPara = document.createElement('p');
+            newPara.textContent = "These content is newly addedd";
+            
+            demodiv.appendChild(newPara);
+            
+        }
+    </script>
+</body>
+</html>

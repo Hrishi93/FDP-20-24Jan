@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>AICTE</p>
+
+    <!--<button onclick="display()" oncllick="alert()"> Click</button>-->
+    <button id="myButton">Click</button>
+
+
+    <script>
+        /*
+        function display() {
+            console.log("Hello")
+        }
+
+        function alert(){
+            alert("Hello");
+        }*/
+
+        const button = document.getElementById("myButton");  //
+
+        button.addEventListener('click' , ()=>{
+            console.log("Hello");
+        })
+
+        button.addEventListener('click' , ()=>{
+                window.alert("Hello");
+        })
+
+    </script>
+</body>
+</html>
