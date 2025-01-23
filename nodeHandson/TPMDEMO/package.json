@@ -1,0 +1,17 @@
+{
+  "name": "tpmdemo",
+  "version": "1.0.0",
+  "main": "figletDemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node figletDemo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "nodemon": "^3.1.9"
+  }
+}
